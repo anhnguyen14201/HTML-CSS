@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <!-- =========== NavBar ========== -->
+        <nav class="nav container">
+            <div class="nav__left">
+                <div class="nav__logo">
+                    <img src="./assets/img/logo.png" alt="">
+                </div>
+
+                <div class="nav__search">
+                    <div class="nav__search-box">
+                        <span class="icon-search"></span>
+                        <input type="text" placeholder="Search Facebook">
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav__middle">
+                <div class="nav__middle-item nav-activite">
+                    <i class="fas fa-home"></i>
+                    <div class="nav__item-child">
+                        <p>Home</p>
+                    </div>
+                </div>
+
+                <div class="nav__middle-item nav__margin-left nav-hover">
+                    <i class="fas fa-user-friends"></i>
+                    <div class="nav__item-child">
+                        Friends
+                    </div>
+                </div>
+
+                <div class="nav__middle-item nav__margin-left nav-hover">
+                    <i class="fas fa-flag"></i>
+                    <div class="nav__item-child">
+                        Marketplace
+                    </div>
+                </div>
+
+                <div class="nav__middle-item nav__margin-left nav-hover">
+                    <i class="fab fa-youtube"></i>
+                    <div class="nav__item-child">
+                        Watch
+                    </div>
+                </div>
+
+                <div class="nav__middle-item nav__margin-left nav-hover">
+                    <i class="fas fa-users"></i>
+                    <div class="nav__item-child">
+                        Groups
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav__right">
+                <div class="nav__right-info">
+                    <img src="./assets/img/none-avatar.jpg" alt="" class="avatar">
+                    <h4>Nguyen</h4>
+                </div>
+
+                <div class="nav__right-item nav-hover">
+                    <div class="menu-icon"></div>
+                    <div class="nav__item-child">
+                        Menu
+                    </div>
+                </div>
+
+                <div class="nav__right-item nav-hover">
+                    <div class="messenger-icon"></div>
+                    <div class="nav__item-child">
+                        Messenger
+                    </div>
+                </div>
+
+                <div class="nav__right-item nav-hover">
+                    <i class="fas fa-bell notifications-icon"></i>
+                    <div class="nav__item-child">
+                        Notifications
+                    </div>
+                </div>
+
+                <div class="nav__right-item nav-hover">
+                    <div class="account-icon"></div>
+                    <div class="nav__item-child">
+                        Account
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- =========== SideBar ========== -->
+        <div class="sidebar">
+            <div>
+                <ul>
+                    <li class="sidebar__item">
+                        <img src="./assets/img/none-avatar.jpg" alt="" class="avatar">
+                        <h4>Anh Nguyen</h4>
+                    </li>
+
+                    <li class="sidebar__item">
+                        <img src="./assets/img/icon-friends.png" alt="">
+                        <h4>Friends</h4>
+                    </li>
+
+                    <li class="sidebar__item">
+                        <img src="./assets/img/icon-groups.png" alt="">
+                        <h4>Groups</h4>
+                    </li>
+
+                    <li class="sidebar__item">
+                        <img src="./assets/img/icon-save.png" alt="" class="">
+                        <h4>Saved</h4>
+                    </li>
+
+                    <li class="sidebar__item">
+                        <img src="./assets/img/icon-messenger.png" alt="">
+                        <h4>Messenger</h4>
+                    </li>
+
+                    <li class="sidebar__item">
+                        <img src="./assets/img/icon-marketplace.png" alt="">
+                        <h4>Marketplace</h4>
+                    </li>
+
+                    <li class="sidebar__item">
+                        <img src="./assets/img/icon-watch.png" alt="">
+                        <h4>Watch</h4>
+                    </li>
+
+                    <li class="sidebar__item">
+                        <img src="./assets/img/icon-memories.png" alt="">
+                        <h4>Memories</h4>
+                    </li>
+
+                    <li class="sidebar__item">
+                        <div class="icon-arrow">
+                            <div class="icon-arrow-down"></div>
+                        </div>
+
+                        <h4>See more</h4>
+                    </li>
+
+                    <div class="sidebar__line"></div>
+                </ul>
+
+                <div class="sidebar__shortcuts">
+                    <div class="shortcuts__title">
+                        Your shortcuts
+                    </div>
+
+                    <ul>
+                        <li class="sidebar__item">
+                            <img src="./assets/img/none-avatar.jpg" alt="" class="avatar">
+                            <h4>Anh Nguyen</h4>
+                        </li>
+
+                        <li class="sidebar__item">
+                            <img src="./assets/img/none-avatar.jpg" alt="" class="avatar">
+                            <h4>Nguyen Anh</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar__footer">
+                    <ul>
+                        <li>
+                            <a href="">Privacy</a>
+                            <span>&nbsp;</span>
+                            <span> . </span>
+                            <span>&nbsp;</span>
+                        </li>
+
+                        <li>
+                            <a href="">Terms</a>
+                            <span>&nbsp;</span>
+                            <span> . </span>
+                            <span>&nbsp;</span>
+                        </li>
+
+                        <li>
+                            <a href="">Advertising</a>
+                            <span>&nbsp;</span>
+                            <span> . </span>
+                            <span>&nbsp;</span>
+                        </li>
+
+                        <li>
+                            <a href="">Ad choices</a>
+                            <span>&nbsp;</span>
+                            <span> . </span>
+                            <span>&nbsp;</span>
+                        </li>
+
+                        <li>
+                            <a href="">Cookies</a>
+                            <span>&nbsp;</span>
+                            <span> . </span>
+                            <span>&nbsp;</span>
+                        </li>
+
+                        <li>
+                            <a href="">More</a>
+                            <span>&nbsp;</span>
+                            <span> . </span>
+                            <span>&nbsp;</span>
+                        </li>
+                        <li>
+                            Meta © 2022
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="news-feed">
+            <div class="news-feed__container">
+                <div class="news-feed__main">
+                    <div class="story__gallery">
+                        <div class="story__gallery--item center">
+                            <div class="story__img">
+                                <img src="./assets/img/none-avatar.jpg" alt="">
+                                <div class="story__img--transparent"></div>
+
+                            </div>
+
+                            <div class="story__icon story__icon--bottom">
+                                <div class="story__icon--item">
+                                    <i class="fas fa-plus-circle"></i>
+                                </div>
+                            </div>
+
+                            <div class="story__title">
+                                <span>Create story</span>
+                            </div>
+                        </div>
+
+                        <div class="story__gallery--item">
+                            <div class="story__img">
+                                <img src="./assets/img/none-avatar.jpg" alt="">
+                                <div class="story__img--transparent"></div>
+
+                            </div>
+
+                            <div class="story__icon story__icon--top">
+                                <div class="story__icon--item">
+                                    <i class="fas fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="story__gallery--item">
+                            <div class="story__img">
+                                <img src="./assets/img/none-avatar.jpg" alt="">
+                                <div class="story__img--transparent"></div>
+
+                            </div>
+
+                            <div class="story__icon story__icon--top">
+                                <div class="story__icon--item">
+                                    <i class="fas fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="story__gallery--item">
+                            <div class="story__img">
+                                <img src="./assets/img/none-avatar.jpg" alt="">
+                                <div class="story__img--transparent"></div>
+
+                            </div>
+
+                            <div class="story__icon story__icon--top">
+                                <div class="story__icon--item">
+                                    <i class="fas fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="story__gallery--item">
+                            <div class="story__img">
+                                <img src="./assets/img/none-avatar.jpg" alt="">
+                                <div class="story__img--transparent"></div>
+
+                            </div>
+
+                            <div class="story__icon story__icon--top">
+                                <div class="story__icon--item">
+                                    <i class="fas fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="story__button">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="post--container-fluid">
+                        <div class="post--container">
+                            <div class="post__write--container">
+                                <div class="post__write">
+                                    <div class="post__user">
+                                        <div class="user__profile">
+                                            <a href=""><img src="./assets/img/none-avatar.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="post__input">
+                                            <input type="text" placeholder="What's on your mind, Anh?">
+                                        </div>
+                                    </div>
+
+                                    <div class="post-container__button">
+                                        <div class="post__button">
+                                            <div class="post__button--item">
+                                                <i class="fas fa-video live-video__color"></i>
+                                                <span>Live video</span>
+                                            </div>
+
+                                            <div class="post__button--item">
+                                                <i class="fas fa-images photo-video__color"></i>
+                                                <span>Photo/Video</span>
+                                            </div>
+
+                                            <div class="post__button--item">
+                                                <i class="fas fa-smile feeling__color"></i>
+                                                <span>Feeling/Activity</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="post__write--container">
+                                <div class="post__room">
+                                    <span class="post__room--span"></span>
+                                    <div class="post__room-button">
+                                        <i class="fas fa-video"></i>
+                                        <span>Creat Room</span>
+                                    </div>
+
+                                    <div class="post__room-item online">
+                                        <img src="./assets/img/none-avatar.jpg" alt="">
+                                    </div>
+
+                                    <div class="post__room-item online">
+                                        <img src="./assets/img/none-avatar.jpg" alt="">
+                                    </div>
+
+                                    <div class="post__room-item online">
+                                        <img src="./assets/img/none-avatar.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__write--container">
+                                <div class="post__user--container">
+                                    <div class="post__user">
+                                        <div class="post__user-info">
+                                            <div class="post__user--avatar">
+                                                <img src="./assets/img/none-avatar.jpg" alt="">
+                                            </div>
+
+                                            <div class="post__user--name">
+                                                <span>Nguyen Anh</span>
+                                                <span><a href="">7h</a> <span>.</span> <i
+                                                        class="fas fa-globe-americas"></i></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="post__user--menu">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="post__user--caption">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, maiores
+                                            reiciendis. Fugit quas sapiente dolores at, culpa, suscipit vitae sed
+                                            assumenda corrupti neque officia eveniet, consequuntur doloremque dolorum
+                                            eaque voluptates.</p>
+                                    </div>
+                                </div>
+
+                                <div class="post__img">
+                                    <img src="./assets/img/story.jpg" alt="">
+                                </div>
+
+                                <div class="post__user--container">
+                                    <div class="post__user--activity">
+                                        <div class="post__activity--icon">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-sad-tear"></i>
+                                            <span>230</span>
+                                        </div>
+
+                                        <div class="post__activity--common">
+                                            <span>10 comments</span>
+                                            <span>10 shares</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="post__user--common">
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span> Like</span>
+                                        </div>
+
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-comment-alt"></i>
+                                            <span>Comment</span>
+                                        </div>
+
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-share"></i>
+                                            <span>Share</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__write--container">
+                                <div class="post__user--container">
+                                    <div class="post__user">
+                                        <div class="post__user-info">
+                                            <div class="post__user--avatar">
+                                                <img src="./assets/img/none-avatar.jpg" alt="">
+                                            </div>
+
+                                            <div class="post__user--name">
+                                                <span>Nguyen Anh</span>
+                                                <span><a href="">7h</a> <span>.</span> <i
+                                                        class="fas fa-globe-americas"></i></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="post__user--menu">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="post__user--caption">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, maiores
+                                            reiciendis. Fugit quas sapiente dolores at, culpa, suscipit vitae sed
+                                            assumenda corrupti neque officia eveniet, consequuntur doloremque dolorum
+                                            eaque voluptates.</p>
+                                    </div>
+                                </div>
+
+                                <div class="post__img">
+                                    <img src="./assets/img/story.jpg" alt="">
+                                </div>
+
+                                <div class="post__user--container">
+                                    <div class="post__user--activity">
+                                        <div class="post__activity--icon">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-sad-tear"></i>
+                                            <span>230</span>
+                                        </div>
+
+                                        <div class="post__activity--common">
+                                            <span>10 comments</span>
+                                            <span>10 shares</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="post__user--common">
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span> Like</span>
+                                        </div>
+
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-comment-alt"></i>
+                                            <span>Comment</span>
+                                        </div>
+
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-share"></i>
+                                            <span>Share</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post__write--container">
+                                <div class="post__user--container">
+                                    <div class="post__user">
+                                        <div class="post__user-info">
+                                            <div class="post__user--avatar">
+                                                <img src="./assets/img/none-avatar.jpg" alt="">
+                                            </div>
+
+                                            <div class="post__user--name">
+                                                <span>Nguyen Anh</span>
+                                                <span><a href="">7h</a> <span>.</span> <i
+                                                        class="fas fa-globe-americas"></i></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="post__user--menu">
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="post__user--caption">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, maiores
+                                            reiciendis. Fugit quas sapiente dolores at, culpa, suscipit vitae sed
+                                            assumenda corrupti neque officia eveniet, consequuntur doloremque dolorum
+                                            eaque voluptates.</p>
+                                    </div>
+                                </div>
+
+                                <div class="post__img">
+                                    <img src="./assets/img/story.jpg" alt="">
+                                </div>
+
+                                <div class="post__user--container">
+                                    <div class="post__user--activity">
+                                        <div class="post__activity--icon">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-sad-tear"></i>
+                                            <span>230</span>
+                                        </div>
+
+                                        <div class="post__activity--common">
+                                            <span>10 comments</span>
+                                            <span>10 shares</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="post__user--common">
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <span> Like</span>
+                                        </div>
+
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-comment-alt"></i>
+                                            <span>Comment</span>
+                                        </div>
+
+                                        <div class="post__user--common-item">
+                                            <i class="fas fa-share"></i>
+                                            <span>Share</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="widgets">
+            <div class="widget__sponsor">
+                <div class="sponsored--title">Sponsored</div>
+                <div class="widgets__sponsor">
+                    <div class="widgets__sponsor--item">
+                        <img src="./assets/img/143086968_2856368904622192_1959732218791162458_n.png" alt="">
+                        <div class="widgets__sponsor--text">
+                            <h2>AnhNguyen</h2>
+                            <p>anhnguyen.info</p>
+                        </div>
+                    </div>
+
+                    <div class="widgets__sponsor--item">
+                        <img src="./assets/img/143086968_2856368904622192_1959732218791162458_n.png" alt="">
+                        <div class="widgets__sponsor--text">
+                            <h2>AnhNguyen</h2>
+                            <p>anhnguyen.info</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget__contact">
+                <div class="widget__contact--common">
+                    <div class="widget__contact--title">
+                        <div class="text">
+                            Contacts
+                        </div>
+
+                        <div class="contact--item">
+                            <i class="fas fa-video"></i>
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="widget__contact--chat">
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
